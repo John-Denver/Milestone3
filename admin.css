@@ -156,7 +156,6 @@ padding: 0
     transition: all 0.3s;
 }
 .left-sidebar-pro {
-    top: 150px;
     width: 240px;
 }
 #sidebar {
@@ -350,6 +349,13 @@ padding: 0
 .mini-navbar .header-top-area{
 	left: 80px;
 }
+
+.edt{
+    margin-left: 600px;
+    margin-top:-330px;
+    
+}
+
 .add-product a {
     float: right;
     position: absolute;
@@ -400,6 +406,21 @@ padding: 0
     border: 1px solid #152036;
     height: 30px;
     padding: 5px;
+}
+
+
+.cust ul.pag li a{
+    display: flex;
+	color: black;
+	background-color: #fff;
+    border: 1px solid #152036;
+    height: 15px;
+    padding: 5px;
+}
+
+.cust ul.pag{
+    display: flex;
+	margin-bottom: 0px;
 }
 
 .reprt{
