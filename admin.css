@@ -91,19 +91,21 @@
 
 .sidebar-nav {
     background: #fff;
+    overflow: auto;
 }
 .sidebar-nav ul {
     padding: 0;
     margin: 0;
     list-style: none;
     background: #1b2a47;
+    overflow: auto;
 }
 
 .sidebar-nav .metismenu {
     background: #1b2a47;
     display: flex;
     flex-direction: column;
-    
+    overflow: auto;
 }
 
 
@@ -111,6 +113,7 @@
      display: flex;
      flex-direction: column;
     position: relative;
+    overflow: auto;
 }
 .sidebar-nav .metismenu a {
     position: relative;
@@ -124,10 +127,6 @@
 
 .sidebar-nav .metismenu ul a {
     padding: 10px 15px 10px 46px;
-}
-
-.sidebar-nav .metismenu ul ul a {
-    padding: 10px 15px 10px 45px;
 }
 
 .sidebar-nav .metismenu a:hover {
@@ -157,16 +156,16 @@ padding: 0
 }
 .left-sidebar-pro {
     width: 240px;
+    overflow: auto;
 }
 #sidebar {
-    top: 125px;
+    top: 120px;
     min-width: 205px;
     background: #1b2a47;
     color: #fff;
-	position:fixed;
-    transition: all 0.3s;
-	z-index:999;
-	height:100%;
+    position: absolute;
+    z-index:999;
+	height: 813px;
 }
 .mini-navbar .all-content-wrapper {
     margin-left: 80px;
@@ -276,7 +275,7 @@ padding: 0
 .bulk-sect{
     font-size:13px;
 	color:#fff;
-    margin-left: 220px;
+    margin-left: 0px;
     background:#1b2a47;
     padding: 30px;
     margin-bottom: 30px;
@@ -286,7 +285,7 @@ padding: 0
     color:#fff;
     background:#152036;
     font-size:35px;
-    margin-left: 300px;
+    margin-left: 450px;
 }
 
 .product-sales-chart{
@@ -352,7 +351,7 @@ padding: 0
 
 .edt{
     margin-left: 600px;
-    margin-top:-330px;
+    margin-top:-500px;
     
 }
 
